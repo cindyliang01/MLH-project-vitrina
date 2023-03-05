@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# cd MLH-project-vitrina
+cd MLH-project-vitrina
 git fetch
-git reset origin/main --hard
+git reset origin/main
 
 python -m venv python3-virtualenv
 source python3-virtualenv/bin/activate
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 
-systemctl daemon-reload
+# systemctl daemon-reload
 systemctl restart myportfolio
