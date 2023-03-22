@@ -69,8 +69,6 @@ def post_time_line_post():
 
     return model_to_dict(timeline_post)
 
-    #testing
-
 @app.route('/api/timeline_post', methods=['GET'])
 def get_time_line_post():
     return {
