@@ -1,12 +1,9 @@
 #!/bin/bash
 
-cd MLH-project-vitrina
 git fetch
-git reset origin/main
+git reset origin/main --hard
 
-python -m venv python3-virtualenv
-source python3-virtualenv/bin/activate
-pip3 install -r requirements.txt
+docker compose -f docker-compose.prod.yml down
 
-# systemctl daemon-reload
-systemctl restart myportfolio
+docker compose -f docker-compose.prod.yml up -d --build
+
