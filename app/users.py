@@ -1,5 +1,5 @@
 team_projects = {
-    "project" : ['Team Portfolio Site Testing Part C Redeploy',],
+    "project" : ['Team Portfolio Site',],
     "project_lang" : ['Flask, JS, Jinja, Python, Leaflet',],
     "project_date" : ['Jan 26/2023 - Feb 06/2023'],
     "project_desc": {
