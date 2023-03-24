@@ -180,7 +180,7 @@ santiago_education = {
 """ Cindy section_info """
 
 cindy_about = {
-    "contact": "cindyliang0127@gmail.com",
+    "contact": "cindyliang0127@gmail.com and cindy.liang023@gmail.com",
     "aboutme": "I am currently a junior studying Computer Science at NYU. I am passionate about full stack software development and in my free time, I like to immerse myself with Natural Langauge Processing and UX/UI design. I am currently honing my coding skills for C and would like to pick up more languages in the future so I can keeping learning and improving."
 }
 
